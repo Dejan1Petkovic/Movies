@@ -1,0 +1,14 @@
+
+  <div class="col-lg-3 col.md-4 col-sm-6 col-xs-12" ng-controller="mainCtrl" ng-repeat="movie in movies">
+    <a href="#/movie/{{movie.id}}">
+    <div class="panel panel-default" >
+      <div id="headingHolder" class="panel-heading">
+        <h5 class="text-center">{{movie.original_title}}</h5>
+      </div>
+      <div class="panel-body text-center">
+        <img id="imgHolder" ng-src="images/{{movie.poster_path}}" alt="slike" class="img-responsive">
+      </div>
+      <div class="panel-footer"></div>
+    </div>
+    </a>
+  </div>

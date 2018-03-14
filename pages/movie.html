@@ -1,0 +1,36 @@
+<div id="oneMovieHolder" class="col-lg-8 col-lg-offset-2" ng-controller='oneMovieCtrl'>
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1 text-right">
+      <button id="homeBtn" class="btn btn-default">Home page</button>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 ">
+        <div class="text-center">
+          <h1>{{movie.original_title}}</h1>
+          <img id="oneImg" src="images/{{movie.poster_path}}" alt="slika" class="img-responsive">
+        </div><br><br>
+        <div class="row">
+          <div>
+          <div class="col-lg-6">
+            <div class="">
+              <p>Country: {{movie.production_countries[0].name}}</p>
+              <p>Genres: {{movie.genres[0].name}}</p>
+              <p>Vote average: {{movie.vote_average}}</p>
+              <p>Production: {{movie.production_companies[0].name}}</p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center down">
+
+              <button class="btn btn-primary form-control" >Download...</button>
+
+          </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>

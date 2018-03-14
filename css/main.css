@@ -1,0 +1,37 @@
+body .navbar {
+  border-radius: 0;
+  margin-bottom: 0; }
+body .navbar-default {
+  background-color: #eee;
+  border-color: #eee; }
+body .jumbotron {
+  padding-top: 5px !important; }
+
+.panel {
+  cursor: pointer; }
+  .panel #imgHolder {
+    height: 300px;
+    display: inline-block; }
+  .panel #headingHolder {
+    height: 60px; }
+    .panel #headingHolder h5 {
+      color: black;
+      font-style: italic;
+      font-size: 16px; }
+
+#oneMovieHolder {
+  background-color: #eee !important; }
+  #oneMovieHolder #oneImg {
+    display: block;
+    margin: 0 auto; }
+  #oneMovieHolder .down {
+    position: relative; }
+    #oneMovieHolder .down button {
+      margin-top: 30px; }
+  #oneMovieHolder #homeBtn {
+    margin-top: 50px;
+    /* margin-right: 50px; */ }
+  #oneMovieHolder #productionBtn {
+    margin-left: 360px; }
+
+/*# sourceMappingURL=main.css.map */

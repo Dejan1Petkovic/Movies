@@ -1,0 +1,66 @@
+body {
+
+  .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  .navbar-default {
+    background-color: #eee;
+    border-color: #eee;
+  }
+
+  .jumbotron {
+    padding-top: 5px!important;
+  }
+}
+
+
+.panel {
+  cursor: pointer;
+
+  #imgHolder {
+    height: 300px;
+    display: inline-block;
+  }
+
+  #headingHolder {
+    height: 60px;
+    h5 {
+      color: black;
+      font-style: italic;
+      font-size: 16px;
+
+    }
+  }
+}
+
+
+
+
+#oneMovieHolder {
+  background-color: #eee !important;
+
+  #oneImg {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .down {
+    position: relative;
+
+    button {
+      margin-top: 30px;
+
+    }
+  }
+
+  #homeBtn {
+    margin-top: 50px;
+    /* margin-right: 50px; */
+  }
+
+  #productionBtn {
+    margin-left: 360px;
+  }
+}
